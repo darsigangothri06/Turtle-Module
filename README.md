@@ -33,3 +33,20 @@ Python contains methods for moving the pem, setting the pen's size, lifting and 
 | `Pen down` | Pulls the pen down. Draws when it moves from one place to the other. | `turtle.pendown()` |
 | `Pen up` | Pulls the pen up. It just moves from one place to the other without drawing anything. | `turtle.penup()` |
 | `Pen size` | Sets the line thickness to the specified width. | `turtle.pensize()` |
+
+## Moving turtle to any location
+
+The turtle's arrowhead is at the center of the graphics window at coordinate(0,0).
+
+The method `goto(x,y)` is used to move the turtle at specified points (x,y).
+
+
+## The COLOR, BGCOLOR, CIRCLE AND SPEED METHOD OF TURTLE
+
+| Method Name | Meaning | Syntax
+| :---: | :---: | :---: |
+| `Speed` | The drawing speed of the turtle must be in the range int 1 (slowest) to 10 (fastest) or 0 (instantaneous) | `turtle.speed()`
+| `Circle` | Draws a circle with the given radius. The center is radius units left of the turtle. The extent determines which part of the circle is drawn. If it is not given, the entire circle is drawn. | `turtle.circle(radius,extent = None)` |
+| 
+| `Color` | The color method is used to draw colorful animations. | `turtle.color(*args)` |
+| `BG color` | Returns the background color of the turtle screen. | `turtle.bgcolor(*arg)` |
