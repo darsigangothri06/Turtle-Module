@@ -49,3 +49,19 @@ The method `goto(x,y)` is used to move the turtle at specified points (x,y).
 | `Circle` | Draws a circle with the given radius. The center is radius units left of the turtle. The extent determines which part of the circle is drawn. If it is not given, the entire circle is drawn. | `turtle.circle(radius,extent = None)` |
 | `Color` | The color method is used to draw colorful animations. | `turtle.color(*args)` |
 | `BG color` | Returns the background color of the turtle screen. | `turtle.bgcolor(*arg)` |
+
+## Drawing with Colors
+
+| Method Name | Meaning | Syntax |
+| :---: | :---: | :---: |
+| `Color` | Sets the pen's color | `turtle.color(c)` |
+| `FillColor` | Sets the pen's fill color to 'C' | `turtle.fillcolor(C)` |
+| `Begin Fill` | Calls this method before filling a shape. | `turtle.begin_fill()` |
+| `End Fill` | Fills the shape drawn before the last call to begin_fill | `turtle.end_fill()` |
+| `Filling` | Returns the fill state. True is filling, False if not filling. | `turtle.filling()` |
+| `Clear` | Clears the window. The state and position of window is not affected. | `turtle.clear()` |
+| `Reset` | Clears the window and reset the state and position to its original default value. | `turtle.reset()` |
+| `Screensize` | Sets the width and height of the canvas | `turtle.screensize()` |
+| `Show Turtle` | Makes the turtle visible. | `turtle.showturtle()` |
+| `Hide Turtle` | Makes the turtle invisible. | `turtle.hideturtle` |
+| `Turtle Write` | Writes a message on the turtle graphics window. | `turtle.write(msg)` |
