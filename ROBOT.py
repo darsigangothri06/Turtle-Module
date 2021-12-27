@@ -80,6 +80,6 @@ Rect(40,5,'black')
 
 t.goto(-40,-250)
 t.color('white')
-t.write("HELLO,I AM SIRISHA", align = 'center', font = ('Arial',30,'bold'))
+t.write("HELLO,I AM HARSHINI", align = 'center', font = ('Arial',30,'bold'))
 
 t.hideturtle()  # hiding the cursor
