@@ -53,7 +53,7 @@ Rect(60,15,'grey')
 
 # Right Hand
 t.goto(55,110)
-Rect(10,40,'grey')
+Rect(15,40,'grey')
 
 # Neck
 t.goto(-50,120)
@@ -77,5 +77,9 @@ Rect(5,5,'black')
 # Mouth
 t.goto(-65,130)
 Rect(40,5,'black')
+
+t.goto(-40,-250)
+t.color('white')
+t.write("HELLO,I AM SIRISHA", align = 'center', font = ('Arial',30,'bold'))
 
 t.hideturtle()  # hiding the cursor
